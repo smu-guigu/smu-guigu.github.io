@@ -1,0 +1,5 @@
+site_name: 龟骨实验室
+
+nav: 
+  - 首页: index.md
+  - 文章: post.md
