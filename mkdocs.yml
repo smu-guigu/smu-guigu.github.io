@@ -2,4 +2,5 @@ site_name: 龟骨实验室
 
 nav: 
   - 首页: index.md
-  - 文章: post.md
+  - 资源: resources/index.md
+  - 文章: post/index.md
