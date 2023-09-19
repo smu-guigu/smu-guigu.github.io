@@ -2,5 +2,7 @@ site_name: 龟骨实验室
 
 nav: 
   - 首页: index.md
-  - 资源: resources/index.md
+  - 资源: 
+    - 资源简介: resources/index.md
+    - 浏览器插件推荐: resources/browser-extensions.md
   - 文章: post/index.md
