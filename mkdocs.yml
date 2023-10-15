@@ -5,4 +5,11 @@ nav:
   - 资源: 
     - 资源简介: resources/index.md
     - 浏览器插件推荐: resources/browser-extensions.md
-  - 文章: post/index.md
+  - 文章: 
+    - 文章简介: post/index.md
+    - 搭网站，学工具: post/learn-tools-by-deploying-your-website.md
+    # - 如何解决问题: post/how-to-solve-problem.md
+
+plugins:
+  - search
+  - mermaid2
