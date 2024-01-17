@@ -6,18 +6,10 @@
 
 依赖：Python3 >= 3.6，pip。
 
-安装 MkDocs：
-
-```shell
-pip install mkdocs
-pip install mkdocs-mermaid2-plugin # mermaid 流程图渲染插件
-```
-
-本地浏览：
-
 ```shell
 git clone https://github.com/smu-guigu/smu-guigu.github.io.git
-cd smu-guigu
+cd smu-guigu.github.io
+pip install -r requirements.txt # 安装依赖
 mkdocs serve # 输入命令后，在浏览器中访问 http://127.0.0.1:8000/ 即可浏览
 ```
 
