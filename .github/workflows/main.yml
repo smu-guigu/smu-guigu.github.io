@@ -1,15 +1,22 @@
-name: build
+name: deploy pages
 on:
   push:
     branches:
       - main
+permissions:
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force --clean --verbose
+      - run: mkdocs gh-deploy --force
