@@ -5,6 +5,7 @@ nav:
   - 资源: 
     - 资源简介: resources/index.md
     - 浏览器插件推荐: resources/browser-extensions.md
+    - B 站 UP 主推荐: resources/recommended-up.md
   - 文章: 
     - 文章简介: post/index.md
     - 搭网站，学工具: post/learn-tools-by-deploying-your-website.md
