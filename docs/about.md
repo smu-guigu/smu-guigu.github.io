@@ -8,7 +8,7 @@
 各级从后向前排序，同级按照字母序排序。
 
 ## 23 级负责人
-
+-dada(谢欣雨)([GitHun](https://github.com/dada088))
 ## 22 级负责人
 
 - John([GitHub](https://github.com/Thespica), [Blog](https://thespica.github.io/))，[Apache GraphAr(incubating)](https://github.com/apache/incubator-graphar) PPMC，开源爱好者。计算机科学与技术。
