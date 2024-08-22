@@ -9,6 +9,7 @@
 
 ## 23 级负责人
 
+- GGGjjjzzz123(高佳卓)([GitHub](https://github.com/GGGjjjzzz123))
 ## 22 级负责人
 
 - John([GitHub](https://github.com/Thespica), [Blog](https://thespica.github.io/))，[Apache GraphAr(incubating)](https://github.com/apache/incubator-graphar) PPMC，开源爱好者。计算机科学与技术。
