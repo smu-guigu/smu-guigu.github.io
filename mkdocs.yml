@@ -1,0 +1,19 @@
+site_name: 龟骨实验室
+
+nav: 
+  - 首页: index.md
+  - 资源: 
+    - 资源简介: resources/index.md
+    - 浏览器插件推荐: resources/browser-extensions.md
+    - B 站 UP 主推荐: resources/recommended-up.md
+  - 文章: 
+    - 文章简介: post/index.md
+    - 搭网站，学工具: post/learn-tools-by-deploying-your-website.md
+    - 如何解决问题: post/how-to-solve-problem.md
+    - 静态网站一步到位: post/one-stop-static-website.md
+    - WSL 经验分享: post/wsl-experience.md
+  - 关于: about.md
+
+plugins:
+  - search
+  - mermaid2
