@@ -14,7 +14,7 @@
 - GGGjjjzzz123(高佳卓)([GitHub](https://github.com/GGGjjjzzz123))
 - 刘远东([Github](https://github.com/haholp))羽毛球爱好者
 - moshiqiqian([Github](https://github.com/moshiqiqian))
-
+- 杨庭祝([GitHub](https://github.com/Kristallos))
 
 ## 22 级负责人
 
