@@ -9,12 +9,11 @@
 
 ## 23 级负责人
 
-
-
-- 房佳奇([GitHub](https://github.com/lu6xun)。计算机科学与技术。
+- dada(谢欣雨)([GitHub](https://github.com/dada088))
+- 房佳奇([GitHub](https://github.com/lu6xun)) 计算机科学与技术。
 - GGGjjjzzz123(高佳卓)([GitHub](https://github.com/GGGjjjzzz123))
-- 刘远东([Github](httpps://github.io/haholp))羽毛球爱好者
-- dada(谢欣雨)([GitHun](https://github.com/dada088))
+- 刘远东([Github](https://github.com/haholp))羽毛球爱好者
+- moshiqiqian([Github](https://github.com/moshiqiqian))
 
 
 ## 22 级负责人
