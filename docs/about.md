@@ -8,7 +8,10 @@
 各级从后向前排序，同级按照字母序排序。
 
 ## 23 级负责人
+
+- 房佳奇([GitHub](https://github.com/lu6xun)。计算机科学与技术。
 - 刘远东([Github](httpps://github.io/haholp))羽毛球爱好者
+
 
 ## 22 级负责人
 
