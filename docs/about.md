@@ -15,6 +15,7 @@
 - 刘远东([Github](https://github.com/haholp))羽毛球爱好者
 - moshiqiqian([Github](https://github.com/moshiqiqian))
 - 杨庭祝([GitHub](https://github.com/Kristallos))
+- 杨熠晨([Github](https://github.com/Awadayang))
 
 ## 22 级负责人
 
