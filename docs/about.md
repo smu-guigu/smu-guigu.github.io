@@ -20,4 +20,4 @@
 ## 22 级负责人
 
 - John([GitHub](https://github.com/Thespica), [Blog](https://thespica.github.io/))，[Apache GraphAr(incubating)](https://github.com/apache/incubator-graphar) PPMC，开源爱好者。计算机科学与技术。
-- KELEEEEE（张妺mo）（[GitHub](https://github.com/KELEEEEEE)）2202计算机科学与技术，外向热情，好相处的老学姐。对比赛和项目感兴趣的可以call me，想变成技术大佬的请找John。
+- KELEEEEE（张妺mo）（[GitHub](https://github.com/KELEEEEEE)）2202计算机科学与技术，外向热情，好相处的老学姐。对比赛和项目感兴趣的可以联系我（球球：3391559635）
