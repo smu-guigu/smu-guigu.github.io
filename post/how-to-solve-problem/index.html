@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>如何解决问题 - 龟骨实验室</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../../css/font-awesome.min.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</head>
+<body>
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand" href="../..">龟骨实验室</a>
+<!-- Expander button -->
+<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Expanded navigation -->
+<div class="navbar-collapse collapse" id="navbar-collapse">
+<!-- Main navigation -->
+<ul class="nav navbar-nav">
+<li class="navitem">
+<a class="nav-link" href="../..">首页</a>
+</li>
+<li class="dropdown">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">资源 <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../resources/">资源简介</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../resources/browser-extensions/">浏览器插件推荐</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../resources/recommended-up/">B 站 UP 主推荐</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../resources/innovative%20and%20entrepreneurial%20personnel/">大创信息</a>
+</li>
+</ul>
+</li>
+<li class="dropdown active">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">文章 <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../">文章简介</a>
+</li>
+<li>
+<a class="dropdown-item" href="../learn-tools-by-deploying-your-website/">搭网站，学工具</a>
+</li>
+<li>
+<a class="dropdown-item active" href="./">如何解决问题</a>
+</li>
+<li>
+<a class="dropdown-item" href="../one-stop-static-website/">静态网站一步到位</a>
+</li>
+<li>
+<a class="dropdown-item" href="../wsl-experience/">WSL 经验分享</a>
+</li>
+</ul>
+</li>
+<li class="navitem">
+<a class="nav-link" href="../../about/">关于</a>
+</li>
+</ul>
+<ul class="nav navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" data-target="#mkdocs_search_modal" data-toggle="modal" href="#">
+<i class="fa fa-search"></i> Search
+                            </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../learn-tools-by-deploying-your-website/" rel="prev">
+<i class="fa fa-arrow-left"></i> Previous
+                                </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../one-stop-static-website/" rel="next">
+                                    Next <i class="fa fa-arrow-right"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="navbar-header">
+<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
+<span class="fa fa-angle-down"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
+<ul class="nav flex-column">
+<li class="nav-item" data-level="2"><a class="nav-link" href="#_1">流程</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#_2">途径</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#_3">思路</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+<div class="col-md-9" role="main">
+<p>解决问题的能力对于计科学子的重要性不言而喻。然而许多同学习惯了应试教育下标准化的题目，却不知道如何解决自己碰到的、具体的问题。</p>
+<p>事实上，<strong>如何解决问题</strong>本身就是一个问题，而本文就尝试为「如何解决问题」这一元问题做出一个可能的回答。在正式开始阅读之前，请先记住一个结论：「请求他人替你解决问题」是无能者最后的手段。</p>
+<h2 id="_1">流程</h2>
+<p>许多同学并没有一个固定的解决问题的流程，常常是稍加思索想不出来后，就搬出了无能者最后的手段——然而这是一种懒惰的做法，解决问题是你的责任，其他人没有义务替你解决问题。这里提供一种可能的、自己解决问题的流程：</p>
+<div class="mermaid">graph TD
+  A(遇到问题)--&gt;B{检索是否有现成的答案}
+  B--&gt;|有|Q[解决问题]
+  B--&gt;|没有| C{尝试自己解决}
+  C--&gt;|无法解决|D[请教有关人员]--&gt;Q
+  C--&gt;|解决了|Q
+  Q--&gt;E{有记录的价值吗?}
+  E--&gt;|有| F[记录并发布供他人参考]
+  F--&gt;|提供来源|B
+</div>
+<p>举例：</p>
+<p>John 在使用某款框架的过程中碰到了各种各样的问题，在费力解决后，他把使用框架遇到的问题和对应的解决办法记录了下来，并准备以此为框架所在的仓库贡献一个 PR。这样其他人遇到类似的问题时，就不用再浪费额外的时间和精力：<img alt="record-solution" src="images\how-to-solve-problem\record-solution.png"/></p>
+<h2 id="_2">途径</h2>
+<ol>
+<li>ChatGPT</li>
+<li>搜索引擎（知识分享、教学平台：Bilibili，YouTube 等）</li>
+<li>官方文档</li>
+<li>询问有关技术人员。</li>
+</ol>
+<p>方便性递减，可靠性递增。前三种途径就足以解决你绝大多数的问题。</p>
+<p>记住，「请教有关人员」是你最后的救命稻草，请不要用<a href="https://www.bilibili.com/video/BV1om4y1H71S/">愚蠢的提问方式</a>放弃最后的机会、浪费别人的时间。</p>
+<p>举例：</p>
+<p>延续上一个例子的语境：John 费力解决碰到的各种问题，大部分是他自己查资料、读源码解决的，但还有一些则是他实在解决不了，厚着脸皮请教开发者解决的：<img alt="ask-question" src="images\how-to-solve-problem\ask-question.png"/></p>
+<p>其中包含一些提问的技巧：</p>
+<ul>
+<li>群中有很多人，有的人和问题相关，有的则无关，指明具体的求助者，这有助于他们回答你的问题，同时不用打扰无关人员；</li>
+<li>清晰地表述你的需求和你碰上的问题，必要时附上你的运行环境、错误日志；</li>
+<li>说出做过的尝试：一方面，排除了错误答案，缩小了回答范围，更有助于得到正确的答案；另一方面，让对方意识到你不是一个只会抛问题的懒汉，你解决问题的积极态度会让被求助者更愿意回答你的问题。</li>
+<li>礼仪：保持谦逊（请问一下），别人没有义务回答你的问题，但他却花费时间慷慨地帮助了你，你应该表示感谢（好了，谢谢。点赞表情），这也有助于以后的沟通和求助。</li>
+</ul>
+<p>提问的技巧和思路指南：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">提问的智慧</a>（<strong>本指南不提供此项目的实际支持服务</strong>）</p>
+<p>补充：一种可能的访问 NewBing， Google 和 GitHub 的方法。</p>
+<h2 id="_3">思路</h2>
+<p>明确问题和需求——拆分为更小的问题——逐一解决。</p>
+<h3 id="_4">举例一：</h3>
+<p>你希望搭建一个静态的博客用于写一些技术文章，同时你也没有愚蠢到直接去问你的学长：「学长学长，如何自己做一个网站？」。</p>
+<p>你检索了一番，在 B 站找到了有关的教学视频，你了解到：只需要用 Markdown 写出博客的内容，再通过有关框架把 Markdown 转换成前端代码，最后把前端代码部署在大家都可以访问到的地方就行了——于是，你把一个大的、无从下手的问题转化成了三个明确的小问题。</p>
+<p>在逐一解决之后，你成功搭建了自己的个人博客，逢人就炫耀。</p>
+<h3 id="_5">举例二：</h3>
+<p>John 希望在终端上渲染一个 3D 的、带光影的、旋转的甜甜圈。他一气呵成写完代码后，发现 Bug 比能正常工作的部分还多。</p>
+<p>在无尽的 Debug 的折磨后，他决定先渲染一个静止的、无光效的甜甜圈（哪怕它看上去像一个二维的图案），旋转和光效的事情后面再说。</p>
+<p>然而仅仅是这一部分也还是叫他够呛，他决定先渲染一个二维的圆，后面再把它旋转成一个三维的甜甜圈。这次他终于成功了，要是连一个圆都渲染不出来，我们有理由相信：他会去渲染一条线、一个点。</p>
+<p>在推导出旋转矩阵后，他不仅完成了二维到三维的跨越，还使得三维的物体能够旋转。</p>
+<p>最后，他找到了反映光线反射的过程中光照强度变化的定律——朗伯余弦定律，并用代码实现了它。至此，他把各个部分拼接起来，得到了他梦寐以求的甜甜圈。</p></div>
+</div>
+</div>
+<footer class="col-md-12">
+<hr/>
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+</footer>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+<script src="../../js/base.js"></script>
+<script src="../../search/main.js"></script>
+<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="searchModalLabel">Search</h4>
+<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+</div>
+<div class="modal-body">
+<p>From here you can search these documents. Enter your search terms below.</p>
+<form>
+<div class="form-group">
+<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
+</div>
+</form>
+<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th style="width: 20%;">Keys</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="help shortcut"><kbd>?</kbd></td>
+<td>Open this help</td>
+</tr>
+<tr>
+<td class="next shortcut"><kbd>n</kbd></td>
+<td>Next page</td>
+</tr>
+<tr>
+<td class="prev shortcut"><kbd>p</kbd></td>
+<td>Previous page</td>
+</tr>
+<tr>
+<td class="search shortcut"><kbd>s</kbd></td>
+<td>Search</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+<script type="module">import mermaid from "https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
+mermaid.initialize({});</script></body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>搭网站，学工具 - 龟骨实验室</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../../css/font-awesome.min.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</head>
+<body>
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand" href="../..">龟骨实验室</a>
+<!-- Expander button -->
+<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Expanded navigation -->
+<div class="navbar-collapse collapse" id="navbar-collapse">
+<!-- Main navigation -->
+<ul class="nav navbar-nav">
+<li class="navitem">
+<a class="nav-link" href="../..">首页</a>
+</li>
+<li class="dropdown">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">资源 <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../resources/">资源简介</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../resources/browser-extensions/">浏览器插件推荐</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../resources/recommended-up/">B 站 UP 主推荐</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../resources/innovative%20and%20entrepreneurial%20personnel/">大创信息</a>
+</li>
+</ul>
+</li>
+<li class="dropdown active">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">文章 <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../">文章简介</a>
+</li>
+<li>
+<a class="dropdown-item active" href="./">搭网站，学工具</a>
+</li>
+<li>
+<a class="dropdown-item" href="../how-to-solve-problem/">如何解决问题</a>
+</li>
+<li>
+<a class="dropdown-item" href="../one-stop-static-website/">静态网站一步到位</a>
+</li>
+<li>
+<a class="dropdown-item" href="../wsl-experience/">WSL 经验分享</a>
+</li>
+</ul>
+</li>
+<li class="navitem">
+<a class="nav-link" href="../../about/">关于</a>
+</li>
+</ul>
+<ul class="nav navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" data-target="#mkdocs_search_modal" data-toggle="modal" href="#">
+<i class="fa fa-search"></i> Search
+                            </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../" rel="prev">
+<i class="fa fa-arrow-left"></i> Previous
+                                </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../how-to-solve-problem/" rel="next">
+                                    Next <i class="fa fa-arrow-right"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="navbar-header">
+<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
+<span class="fa fa-angle-down"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
+<ul class="nav flex-column">
+<li class="nav-item" data-level="2"><a class="nav-link" href="#_1">目的</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#_2">模块拆分</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#_3">课程规划</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+<div class="col-md-9" role="main">
+<h2 id="_1">目的</h2>
+<p>对于我们做的同一件事，在不同的维度看也有不同的意义，从长期到短期、从抽象到具象：</p>
+<ul>
+<li>长期，方法论：培养<strong>自学</strong>、<strong>解决问题</strong>、<strong>获取信息和资源</strong>的能力，对计算机、技术体系有更全面的了解；</li>
+<li>中期，工具：学习常用工具，如搜索引擎，ChatGPT，Markdown，命令行，Git，GitHub；</li>
+<li>短期，实践：搭建自己的静态网站（博客）。</li>
+</ul>
+<p>具象的实践是为了直观的体验和上手，抽象的方法是为了解决更宽泛的问题。</p>
+<blockquote>
+<p>与其说是课程，不如说是一个实践项目分享。我们只能告诉你有什么可以做，至于做不做、做什么都取决于你自己。</p>
+</blockquote>
+<h2 id="_2">模块拆分</h2>
+<div class="mermaid">graph LR
+A(静态网站)---B(内容)
+B---E(Markdown)
+A---C(前端代码)
+C---F(HTML 等)
+A---D(管理与部署)
+D---G(版本控制: Git)
+D---H(代码托管: GitHub)
+D---I(网页部署: GitHub Pages)
+</div>
+<p>说明：此项目以 B 站 UP 主<a href="https://space.bilibili.com/34786453">康文昌</a>的编程课为基础，补充了如何解决问题、 Git 和 GitHub 的部分。</p>
+<h2 id="_3">课程规划</h2>
+<h3 id="lesson-1">Lesson 1: 如何解决问题：</h3>
+<ul>
+<li>流程</li>
+<li>途径：ChatGPT—搜索引擎（知识分享、教学平台：Bilibili，YouTube 等）—官方文档—询问有关技术人员。方便性递减，可靠性递增；</li>
+<li>思路：将大问题拆分成关联的小问题，逐一解决。我们的教学就采取这个思路，大家可以在实践中体会。</li>
+</ul>
+<p>补充阅读：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">提问的智慧</a>。</p>
+<p>如何访问 Google, NewBing 和 GitHub;</p>
+<h3 id="lesson-2">Lesson 2: <a href="https://www.bilibili.com/video/BV1AF411s78P/?spm_id_from=333.999.0.0&amp;vd_source=03836a37b30756921d327ea531c18b88">编程的本质</a>与标记语言</h3>
+<p>程序 = 数据 + 函数。</p>
+<h4 id="_4">标记语言</h4>
+<p>标记语言 = 文本 + 标记，「文本」是数据（内容），「标记」则将文本转换（渲染）成特定格式。</p>
+<ol>
+<li>C 语言 printf 函数，运行时的输出；</li>
+<li>HTML，你所见到的网页。手写一个简单的网页并在浏览器中打开；</li>
+<li>Markdown，简单、简洁、优雅的笔记、说明文档格式。
+Markdown-HTML 前端框架。</li>
+</ol>
+<h3 id="lesson-3-github">Lesson 3: 图形界面的 GitHub</h3>
+<p>GitHub——托管你的代码，GitHub Pages——部署你的网页。</p>
+<p>认识一个仓库的各个模块，<a href="https://github.com/smu-guigu/smu-guigu.github.io/issues/1">good first issue: 到此一游</a></p>
+<h3 id="lesson-4-git">Lesson 4: 命令行界面的 Git</h3>
+<p>Git——对你的代码进行版本控制、分布式地协作。</p>
+<p>熟悉命令行环境，Git bash 或 WSL。对比<strong>图形</strong>和<strong>命令行</strong>两种操作方式的优劣。</p>
+<p>熟悉 Git：将远端仓库克隆到本地，修改 HTML，通过 Git 上传到 GitHub 的 main 分支。</p>
+<h3 id="lesson-5">Lesson 5: 综合——通过工作流更新网站</h3>
+<p>在增添、删减、修改你的个人网站的过程中，摸索出一套基于 Git 和 GitHub 的工作流。</p>
+<p>当你尝试参与到其他项目中时，你至少掌握了一套基本的工作流程——这会让一个开源新人底气倍增。</p></div>
+</div>
+</div>
+<footer class="col-md-12">
+<hr/>
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+</footer>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+<script src="../../js/base.js"></script>
+<script src="../../search/main.js"></script>
+<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="searchModalLabel">Search</h4>
+<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+</div>
+<div class="modal-body">
+<p>From here you can search these documents. Enter your search terms below.</p>
+<form>
+<div class="form-group">
+<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
+</div>
+</form>
+<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th style="width: 20%;">Keys</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="help shortcut"><kbd>?</kbd></td>
+<td>Open this help</td>
+</tr>
+<tr>
+<td class="next shortcut"><kbd>n</kbd></td>
+<td>Next page</td>
+</tr>
+<tr>
+<td class="prev shortcut"><kbd>p</kbd></td>
+<td>Previous page</td>
+</tr>
+<tr>
+<td class="search shortcut"><kbd>s</kbd></td>
+<td>Search</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+<script type="module">import mermaid from "https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
+mermaid.initialize({});</script></body>
+</html>
